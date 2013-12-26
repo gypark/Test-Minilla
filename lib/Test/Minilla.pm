@@ -5,6 +5,11 @@ use warnings;
 
 our $VERSION = "0.01";
 
+use Parse::EDID;
+
+sub foo {
+    return "FOO";
+}
 
 
 1;
